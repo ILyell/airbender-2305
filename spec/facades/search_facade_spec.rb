@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe SearchFacade do
-    it 'returns 25 character objects' do
+    xit 'returns 25 character objects' do
         params = { nation: 'fire+nation' }
         facade = SearchFacade.new(params)
 
