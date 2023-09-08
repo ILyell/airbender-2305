@@ -1,0 +1,27 @@
+<p>Total Residents: <%= @facade.member_count %> </p>
+
+<% @facade.nation_members.each do |member| %>
+    <div id='member'>
+    <%= image_tag(member.photo) if member.photo != nil %>
+    <br>
+    <%= "Name: #{member.name}" %>
+    <br>
+    <% if member.allies == nil %>
+        <%= "Allies: None" %>
+    <% else %>
+        <%= "Allies: #{member.allies}" %>
+    <% end %>
+    <br>
+    <% if member.enemies == nil %>
+        <%= "Enemies: None" %>
+    <% else %>
+        <%= "Enemies: #{member.enemies}" %>
+    <% end %>
+    <br>
+    <% if member.affiliation == nil %>
+        <%= "Affiliation: None" %>
+    <% else %>
+        <%= "Affiliation: #{member.affiliation}" %>
+    <% end %>
+    </div>
+<% end %>
