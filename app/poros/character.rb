@@ -8,7 +8,7 @@ class Character
 
     def initialize(char_hash)
         @name = char_hash[:name]
-        @photo = char_hash[:photo]
+        @photo = char_hash[:photoUrl]
         @allies = char_hash[:allies]
         @enemies = char_hash[:enemies]
         @affiliation = char_hash[:affiliation]

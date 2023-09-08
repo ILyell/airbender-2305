@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Character do
     it 'Exist and holds attributes' do
         attributes_1 =  { name: "Timmy",
-                        photo: "image_url",
+                        photoUrl: "image_url",
                         allies: "The Red Basin Nation",
                         enemies: "Everyone lmao",
                         affiliation: "The Red Basin Nation Army"

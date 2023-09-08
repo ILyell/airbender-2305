@@ -13,4 +13,11 @@ RSpec.describe SearchFacade do
             expect(member).to be_a Character
         end
     end
+
+    it 'counts number of nation members' do 
+        params = { nation: 'fire+nation' }
+        facade = SearchFacade.new(params)
+
+        expect(facade.member_count).to eq(97)
+    end
 end

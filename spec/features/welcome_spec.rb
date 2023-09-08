@@ -9,7 +9,7 @@ RSpec.describe "Welcome Page", type: :feature do
 
             click_button "Search For Members"
 
-            expect(current_route).to eq(search_path)
+            expect(current_path).to eq(search_path)
         end
     end
 end

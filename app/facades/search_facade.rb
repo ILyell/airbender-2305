@@ -16,4 +16,8 @@ class SearchFacade
             Character.new(member)
         end
     end
+
+    def member_count
+        service.get_nation_members(@params[:nation]).count
+    end
 end
