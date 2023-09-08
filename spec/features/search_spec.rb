@@ -11,7 +11,6 @@ RSpec.describe "Search Page", type: :feature do
         it 'Has a list with detail info for the first 25 memebrs of the fire nation' do
             visit search_path(nation: "fire+nation")
 
-            save_and_open_page
             expect(page).to have_css('#member', count: 25)
             within first '#member' do
                 expect(page).to have_content('Name:')

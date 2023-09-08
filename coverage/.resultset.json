@@ -1,0 +1,211 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/app/facades/search_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          5,
+          null,
+          null,
+          1,
+          8,
+          null,
+          null,
+          1,
+          4,
+          4,
+          100,
+          null,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/spec/features/search_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/spec/features/welcome_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/spec/poros/character_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/app/poros/character.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          102,
+          102,
+          102,
+          102,
+          102,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/spec/services/avatar_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          97,
+          97,
+          97,
+          97,
+          97,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/app/services/avatar_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          9,
+          null,
+          null,
+          1,
+          9,
+          9,
+          null,
+          null,
+          1,
+          9,
+          null,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/app/controllers/search_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          3,
+          null,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/ianlyell/turing_work/3mod/mid-mod/airbender-2305/app/controllers/welcome_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1694192233
+  }
+}
