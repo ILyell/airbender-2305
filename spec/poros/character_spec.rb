@@ -6,7 +6,7 @@ RSpec.describe Character do
                         photo: "image_url",
                         allies: "The Red Basin Nation",
                         enemies: "Everyone lmao",
-                        affiliations: "The Red Basin Nation Army"
+                        affiliation: "The Red Basin Nation Army"
                         }
 
 
@@ -18,12 +18,12 @@ RSpec.describe Character do
         expect(char_1.photo).to eq("image_url")
         expect(char_1.allies).to eq("The Red Basin Nation")
         expect(char_1.enemies).to eq("Everyone lmao")
-        expect(char_1.affiliations).to eq("The Red Basin Nation Army")
+        expect(char_1.affiliation).to eq("The Red Basin Nation Army")
 
         attributes_2 =  { name: "Timmy",
             allies: "The Red Basin Nation",
             enemies: "Everyone lmao",
-            affiliations: "The Red Basin Nation Army"
+            affiliation: "The Red Basin Nation Army"
             }
 
         char_2 = Character.new(attributes_2)
@@ -33,6 +33,6 @@ RSpec.describe Character do
         expect(char_2.photo).to eq(nil)
         expect(char_2.allies).to eq("The Red Basin Nation")
         expect(char_2.enemies).to eq("Everyone lmao")
-        expect(char_2.affiliations).to eq("The Red Basin Nation Army")
+        expect(char_2.affiliation).to eq("The Red Basin Nation Army")
     end
 end

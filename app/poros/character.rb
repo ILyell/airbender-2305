@@ -4,14 +4,14 @@ class Character
                 :photo,
                 :allies,
                 :enemies,
-                :affiliations
+                :affiliation
 
     def initialize(char_hash)
         @name = char_hash[:name]
         @photo = char_hash[:photo]
         @allies = char_hash[:allies]
         @enemies = char_hash[:enemies]
-        @affiliations = char_hash[:affiliations]
+        @affiliation = char_hash[:affiliation]
         
     end
 end
